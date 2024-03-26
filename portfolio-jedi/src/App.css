@@ -1,0 +1,92 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+
+.background{
+  background: #fffcfc;
+  width: 1200px;
+  height: 600px;
+  position: relative;
+  /* border: 2px solid #8A56A0; */
+  box-shadow: 0px 0px 10px rgb(65, 3, 73); 
+  border: 5px solid transparent; 
+  border-image: linear-gradient(to bottom, #8A56A0, #569CA0) 1; 
+  border-image-slice: 1;
+  display: flex;
+}
+
+.card{
+  width: 300px;
+  height: 250px;
+  background: #8A56A0;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+  color: white;
+  position: relative;
+  transition: transform 0.3s ease;
+  padding: 30px;
+  align-items: center;
+  box-shadow: 10px;
+
+}
+
+.card:hover{
+  background: #569CA0;
+  transform: translate(5px, 5px);
+}
+
+.image{
+  width: 300px;
+  height: 300px;
+  border: 5px solid #8A56A0;
+  border-start-start-radius: 10px;
+  border-start-end-radius: 10px;
+}
+
+.left{
+  width: 30%;
+  padding: 30px;
+}
+
+.right{
+  padding: 30px;
+  width: 70%;
+}
+
+.name{
+  color: #8A56A0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.infos {
+  display: flex;
+  gap: 20px;
+}
+
+.card-infos{
+  padding: 30px;
+  margin-top: 20px;
+  background: #DAA9E3;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card-infos:hover{
+  background: #569CA0;
+  transform: translate(5px, 5px);
+}
+
+li{
+  margin-left: 20px;
+}
+
+.links {
+  color: black;
+}
